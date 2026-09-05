@@ -16,7 +16,7 @@ import Logout from './logout';
 function MyRouter()
 {
     return (
-    <BrowserRouter basename="/shop2">
+    <BrowserRouter basename="/shop2/">
         <Routes>
             <Route index path='/' element={<Home />} />
             <Route  path='/login' element={<Login />} />
